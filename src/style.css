@@ -1,0 +1,48 @@
+#time-wrap {
+  display: flex;
+  align-items: center;
+}
+
+#time {
+  background: rgb(133, 133, 133);
+  cursor: pointer;
+  height: 15px;
+  width: 630px;
+  margin-right: 20px;
+}
+
+#time-bar {
+  height: 100%;
+  width: 0%;
+  transition: width 0.2s linear;
+  -webkit-appearance: none;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+#time-bar::-webkit-slider-thumb {
+  -webkit-appearance: none;
+}
+
+#time-bar::-webkit-slider-runnable-track {
+  background-color: rgb(255, 0, 140);
+  height: 15px;
+  position: relative;
+  bottom: 2px;
+  right: 2px;
+  border: none;
+}
+
+#fullscreen {
+  cursor: pointer;
+  display: inline-block;
+  background-color: #fff;
+  padding: 0 5px;
+}
+
+#playPauseBtn,
+#volume,
+#timer {
+  background-color: #fff;
+}
